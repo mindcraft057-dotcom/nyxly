@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Inter, Poppins, Space_Mono } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
