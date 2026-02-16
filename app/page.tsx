@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion, Variants } from "framer-motion";
-import { FaMoon, FaBrain, FaNewspaper, FaArrowRight } from "react-icons/fa";
+import { FaMoon, FaReceipt, FaNewspaper, FaArrowRight } from "react-icons/fa";
 import Header from "../components/Header";
 
 const container: Variants = {
@@ -36,7 +36,7 @@ export default function Home() {
             "name": "Sleep Lite by Nyxly",
             "url": "https://sleep-lite.nyxly.art",
             "logo": "https://sleep-lite.nyxly.art/nyxly-logo.png",
-            "description": "Fun, informative, and instantly shareable sleep tools including Chronotype Tests and AI Dream Interpretation."
+            "description": "Fun, informative, and instantly shareable sleep tools including Chronotype Tests and Viral Sleep Receipts."
           })
         }}
       />
@@ -57,10 +57,10 @@ export default function Home() {
               },
               {
                 "@type": "Question",
-                "name": "How does the AI Dream Interpreter work?",
+                "name": "What is a Sleep Receipt?",
                 "acceptedAnswer": {
-                  "@type": "Answer", // Fixed: Was { "type": "Answer" }
-                  "text": "The AI Dream Interpreter uses Jungian analysis to decode symbols and hidden meanings in your subconsciously generated dreams."
+                  "@type": "Answer",
+                  "text": "The Sleep Receipt is a fun, shareable visualization of your sleep data, styled like a thermal store receipt."
                 }
               }
             ]
@@ -82,7 +82,7 @@ export default function Home() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary-foreground opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-secondary-foreground"></span>
             </span>
-            New: Dream Interpreter AI
+            New: Viral Sleep Receipt
           </motion.div>
 
           <motion.h1 variants={item} className="text-5xl md:text-7xl font-bold tracking-tight text-foreground leading-[1.1]">
@@ -93,7 +93,7 @@ export default function Home() {
           </motion.h1>
 
           <motion.p variants={item} className="text-lg md:text-xl text-muted-foreground/90 max-w-xl mx-auto leading-relaxed">
-            Discover your chronotype, decode your dreams, and master your rest with our suite of free tools.
+            Discover your chronotype, visualize your sleep, and master your rest with our suite of free tools.
           </motion.p>
 
           <motion.div variants={item} className="flex gap-4 justify-center pt-4">
@@ -147,17 +147,17 @@ export default function Home() {
 
           {/* Dream Interpreter Card */}
           <motion.article variants={item} className="md:col-span-1 group">
-            <Link href="/dream" className="block h-full">
+            <Link href="/receipt" className="block h-full">
               <div className="h-full glass glass-hover rounded-[2.5rem] p-8 relative overflow-hidden flex flex-col justify-between min-h-[320px] border-secondary/20 bg-gradient-to-br from-secondary/20 via-secondary/5 to-white/95">
                 <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-secondary/30 to-transparent transition-all group-hover:from-secondary/40"></div>
 
                 <div className="relative z-10 mb-6">
                   <div className="h-14 w-14 rounded-2xl bg-white/90 backdrop-blur-md flex items-center justify-center text-secondary-foreground shadow-sm mb-6">
-                    <FaBrain size={28} />
+                    <FaReceipt size={28} />
                   </div>
-                  <h2 className="text-2xl font-bold mb-3 text-foreground whitespace-nowrap">Dream Interpreter</h2>
+                  <h2 className="text-2xl font-bold mb-3 text-foreground whitespace-nowrap">Sleep Receipt</h2>
                   <p className="text-muted-foreground">
-                    Jungian analysis for your subconscious. Decode symbols and hidden meanings.
+                    Get a viral thermal-style receipt for your last night's sleep. Shareable and fun.
                   </p>
                 </div>
 

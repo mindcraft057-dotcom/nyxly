@@ -14,13 +14,12 @@ The Web platform is the "Playground" of the Sleep Lite ecosystem. Its primary go
     2.  System calculates the dominant type.
     3.  **Result Page**: Displays a cute character card with key traits and a "Share to Instagram/Story" button.
 
-### B. Dream Interpretation AI (Priority 2)
-*   **Concept**: AI-powered dream analysis for entertainment.
+### B. Sleep Receipt (Priority 2)
+*   **Concept**: A viral "thermal receipt" style visualization of the user's sleep data.
 *   **User Flow**:
-    1.  User types a short description of their dream into a text box.
-    2.  User clicks "Interpret".
-    3.  **Backend**: Calls Google Gemini API with a specific system prompt (e.g., "Act as a Jungian dream analyst, keep it light and fun...").
-    4.  **Result**: Displays the interpretation with a disclaimer ("For entertainment purposes only").
+    1.  User inputs sleep/wake times and dream "weirdness".
+    2.  System generates a stylized receipt showing "line items" for deep sleep, REM, etc.
+    3.  **Result**: Displays a shareable, monospace-style receipt card.
 
 ### C. Sleep Encyclopedia (Future Phase)
 *   **Concept**: A clean, searchable wiki for sleep terms.
