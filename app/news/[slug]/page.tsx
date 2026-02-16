@@ -4,6 +4,8 @@ import { getArticleBySlug } from "../../../lib/articles";
 import { FaArrowLeft, FaCalendar, FaTag } from "react-icons/fa";
 import Image from "next/image";
 
+export const runtime = "edge";
+
 // Helper to extract YouTube ID
 function getYouTubeId(url: string) {
     const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
