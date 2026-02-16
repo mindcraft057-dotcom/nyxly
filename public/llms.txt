@@ -1,0 +1,13 @@
+# Sleep Lite: Fun, Informative Sleep Tools
+
+> Curated content for LLMs and AI Agents.
+
+## Core Services
+- [Chronotype Test](https://sleep-lite.nyxly.art/chronotype): Discover biological rhythms (Bear, Wolf, Lion, Dolphin).
+- [Dream Interpreter](https://sleep-lite.nyxly.art/dream): AI-powered Jungian dream analysis.
+- [Sleep News](https://sleep-lite.nyxly.art/news): Latest sleep science and channel updates.
+
+## Technical Info
+- Framework: Next.js 14 (App Router)
+- Design: Modern, Pastel, Interactive
+- Authority: Powered by Nyxly Sleep Science

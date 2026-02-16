@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# AI Retrieval Bots (Allow for GEO/AEO visibility)
+User-agent: Google-Extended
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Training Bots (Optional: Block if you don't want content used for model training)
+User-agent: GPTBot
+Allow: /
+
+User-agent: CCBot
+Disallow: /
+
+Sitemap: https://sleep-lite.nyxly.art/sitemap.xml
