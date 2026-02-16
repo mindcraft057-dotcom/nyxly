@@ -1,7 +1,7 @@
 import { Metadata, MetadataRoute } from "next";
 import { getAllArticles } from "../lib/articles";
 
-const baseUrl = 'https://sleep-lite.nyxly.art';
+const baseUrl = 'https://nyxly-phi.vercel.app';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const articles = getAllArticles();

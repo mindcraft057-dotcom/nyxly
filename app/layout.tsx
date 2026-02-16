@@ -14,7 +14,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://sleep-lite.nyxly.art"),
+  metadataBase: new URL("https://nyxly-phi.vercel.app"),
   alternates: {
     canonical: "/",
   },
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sleep Lite - The Playground for Better Rest",
     description: "Discover your chronotype, decode your dreams with AI, and explore sleep science tools by Nyxly.",
-    url: "https://sleep-lite.nyxly.art",
+    url: "https://nyxly-phi.vercel.app",
     siteName: "Sleep Lite",
     images: [
       {

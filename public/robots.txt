@@ -18,4 +18,4 @@ Allow: /
 User-agent: CCBot
 Disallow: /
 
-Sitemap: https://sleep-lite.nyxly.art/sitemap.xml
+Sitemap: https://nyxly-phi.vercel.app/sitemap.xml
